@@ -1,8 +1,8 @@
 {
   "formatVersion": 1,
   "key": "example.metrics.storage",
-  "release": "1.0.0",
-  "title": "Free storage",
+  "release": "1.1.0",
+  "title": "Available storage",
   "footprints": [
     {
       "cols": 2,
@@ -13,7 +13,7 @@
     "metric": "sensor.number.v1"
   },
   "settingDefaults": {
-    "label": "Free storage"
+    "label": "Available storage"
   },
   "root": {
     "type": "stack",

@@ -16,7 +16,7 @@
       "label"
     ],
     "value": [
-      "freeBytes"
+      "availableBytes"
     ],
     "conversion": "bytesToGiB"
   }
