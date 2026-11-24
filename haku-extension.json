@@ -1,0 +1,20 @@
+{
+  "formatVersion": 1,
+  "id": "example.metrics",
+  "title": "Sample storage metrics",
+  "repository": "satorusaka/haku-sample-metrics",
+  "version": "1.0.0",
+  "compatibility": {
+    "serverMajor": 1
+  },
+  "widgets": [
+    {
+      "path": "storage.widget.json",
+      "sha256": "ee6336750476eed9fbe5613271711439e0797cf010c17c424f3256ab9659fef7"
+    }
+  ],
+  "connector": {
+    "path": "metrics.connector.json",
+    "sha256": "d3f174c0b197430872bbee14ebd19b84e410e1bed0ffdeb96d627bc85e53719f"
+  }
+}

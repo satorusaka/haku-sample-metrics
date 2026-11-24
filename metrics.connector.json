@@ -1,0 +1,23 @@
+{
+  "formatVersion": 1,
+  "kind": "http-json",
+  "capability": "sensor.number.v1",
+  "pollSeconds": 5,
+  "mapping": {
+    "type": "list",
+    "list": [
+      "volumes"
+    ],
+    "key": [
+      "id"
+    ],
+    "label": "Storage",
+    "labelField": [
+      "label"
+    ],
+    "value": [
+      "freeBytes"
+    ],
+    "conversion": "bytesToGiB"
+  }
+}

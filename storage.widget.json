@@ -1,0 +1,37 @@
+{
+  "formatVersion": 1,
+  "key": "example.metrics.storage",
+  "release": "1.0.0",
+  "title": "Free storage",
+  "footprints": [
+    {
+      "cols": 2,
+      "rows": 2
+    }
+  ],
+  "inputs": {
+    "metric": "sensor.number.v1"
+  },
+  "settingDefaults": {
+    "label": "Free storage"
+  },
+  "root": {
+    "type": "stack",
+    "children": [
+      {
+        "type": "text",
+        "setting": "label"
+      },
+      {
+        "type": "value",
+        "input": "metric",
+        "field": "value"
+      },
+      {
+        "type": "value",
+        "input": "metric",
+        "field": "unit"
+      }
+    ]
+  }
+}
